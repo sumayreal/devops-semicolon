@@ -15,7 +15,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "devops-semicolon", ".", "{C
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_65478"
 		Release.AspNetCompiler.PhysicalPath = "..\devops-semicolon\"
-		Release.AspNetCompiler.TargetPath = "$(build.artifactstagingdirectory)"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65478\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
@@ -27,11 +27,14 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Host|Any CPU = Host|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C2C54B95-860D-452F-A223-713D1E47E627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C2C54B95-860D-452F-A223-713D1E47E627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C54B95-860D-452F-A223-713D1E47E627}.Host|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C54B95-860D-452F-A223-713D1E47E627}.Host|Any CPU.Build.0 = Debug|Any CPU
 		{C2C54B95-860D-452F-A223-713D1E47E627}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{C2C54B95-860D-452F-A223-713D1E47E627}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
