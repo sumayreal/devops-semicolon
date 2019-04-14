@@ -20,8 +20,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "devops-semicolon", ".", "{C
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		Host.AspNetCompiler.VirtualPath = "..\virtual"
-		Host.AspNetCompiler.TargetPath = "..\target"
+		Host.AspNetCompiler.VirtualPath = "/virtual"
+		Host.AspNetCompiler.TargetPath = "..\target\"
 		VWDPort = "65478"
 		SlnRelativePath = "..\devops-semicolon\"
 	EndProjectSection
